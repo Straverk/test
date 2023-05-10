@@ -1,2 +1,2 @@
-telebot==4.11.0
+telebot==0.0.5
 sqlite3==3.7.15
