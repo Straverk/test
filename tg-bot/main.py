@@ -56,7 +56,6 @@ def start(message):
     else:
         main_m(message.from_user.id, "Привет👋 Я ботик для ежедневных записей настроения, предлагаю начать создание"
                                      " твоей первой записи!")
-    bot.send_message(message.from_user.id, str(message.message_id.date))
 
 
 @bot.callback_query_handler(func=lambda call: True)
